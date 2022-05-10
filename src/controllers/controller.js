@@ -13,3 +13,7 @@ exports.pagesAbout = (req, res, next) => {
 exports.pagesContac = (req, res, next) => {
     res.send('<h1>Halaman Contac</h1> <br> <a href="/">Back</a>');
 };
+
+exports.pages404 = (req, res, next) => {
+    res.send('<h1>404</h1> <br> <a href="/">Back</a>');
+};
