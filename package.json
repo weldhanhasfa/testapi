@@ -1,0 +1,23 @@
+{
+  "name": "testapi",
+  "version": "1.0.0",
+  "description": "Aplkasi Test Api",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "build": "node src/index.js"
+  },
+  "author": "hasfajingga",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "dependencies": {
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "knex": "^2.0.0",
+    "mysql2": "^2.3.3"
+  },
+  "keywords": []
+}
